@@ -8,6 +8,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Nova+Mono&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+.font-family{
+  font-family: Bubblegum Sans;
+}
 .main-body {
   background-color: #f2395a;
 }
@@ -91,7 +94,10 @@
   background-image: linear-gradient(135deg, #0eeff0 30%, #088f90 90%);
   position: relative;
   z-index: 3;
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 40px;
+  padding-left: 40px;
   color: #999;
 }
 
@@ -151,5 +157,23 @@
 }
 
 .register-wrapper form input[type="submit"]:hover{
-  background-size: 40px 40px;
+  background-size: 25px 25px;
+}
+
+.register-title{
+  font-size: 2rem;
+  padding-bottom: 20px;
+  margin: 0 0 20px;
+  border-bottom: dashed 1px #e6e6e6;
+}
+
+.register-wrapper-block{
+  background-color: #fff;
+  padding: 50px;
+  -webkit-transform: scale(0.92) translate(0.32px);
+          transform: scale(0.92) translate(0.32px); 
+}
+.register-wrapper-block:hover::before{
+  -webkit-transform: scale(0.92) translate(0.32px);
+          transform: scale(0.92) translate(0.32px);
 }
